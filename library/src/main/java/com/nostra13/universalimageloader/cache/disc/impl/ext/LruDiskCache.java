@@ -235,4 +235,6 @@ public class LruDiskCache implements DiskCache {
 	public void setCompressQuality(int compressQuality) {
 		this.compressQuality = compressQuality;
 	}
+
+	public long getCacheSize() { return cache.size(); }
 }

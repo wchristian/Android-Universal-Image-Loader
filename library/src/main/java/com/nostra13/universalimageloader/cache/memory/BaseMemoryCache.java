@@ -68,4 +68,6 @@ public abstract class BaseMemoryCache implements MemoryCache {
 
 	/** Creates {@linkplain Reference not strong} reference of value */
 	protected abstract Reference<Bitmap> createReference(Bitmap value);
+
+	public long getCacheSize() { return 0; }
 }

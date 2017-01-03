@@ -85,4 +85,6 @@ public class LimitedAgeMemoryCache implements MemoryCache {
 		cache.clear();
 		loadingDates.clear();
 	}
+
+	public long getCacheSize() { return 0; }
 }

@@ -45,4 +45,6 @@ public interface MemoryCache {
 
 	/** Remove all items from cache */
 	void clear();
+
+	long getCacheSize();
 }

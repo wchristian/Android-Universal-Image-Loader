@@ -78,4 +78,6 @@ public class FuzzyKeyMemoryCache implements MemoryCache {
 	public Collection<String> keys() {
 		return cache.keys();
 	}
+
+	public long getCacheSize() { return 0; }
 }

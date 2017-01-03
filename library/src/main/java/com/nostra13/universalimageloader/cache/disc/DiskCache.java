@@ -82,4 +82,6 @@ public interface DiskCache {
 
 	/** Clears disk cache. */
 	void clear();
+
+	long getCacheSize();
 }

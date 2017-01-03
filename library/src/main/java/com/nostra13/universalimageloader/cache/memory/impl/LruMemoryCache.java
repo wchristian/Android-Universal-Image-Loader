@@ -141,4 +141,6 @@ public class LruMemoryCache implements MemoryCache {
 	public synchronized final String toString() {
 		return String.format("LruCache[maxSize=%d]", maxSize);
 	}
+
+	public long getCacheSize() { return size; }
 }
